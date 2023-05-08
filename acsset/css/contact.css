@@ -1,0 +1,130 @@
+
+
+.contact__container {
+    position: relative;
+    z-index: 1;
+    transform: translateY(-185px);
+    margin-bottom: -101px;
+}
+
+.contact__form {
+    background-color: #fff;
+    min-height: 676px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+    padding: 0 8%;
+    padding-bottom: 8%;
+}
+
+.contact--title {
+    padding-top: 54px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 42px;
+}
+
+.form-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -8px;
+}
+
+.form-group {
+    flex: 50%;
+    padding: 0 8px;
+}
+
+.form-group > label {
+    display: block;
+    font-size: 15px;
+    color:#666666;
+}
+
+.form-group textarea {
+    width: 100%;
+    border: 1px solid #eeeeee;
+    margin: 8px 0;
+    outline: none;
+    padding: 15px;
+    font-family: 'Jost', sans-serif;
+    font-size:14px;
+}
+
+.form-control {
+    border-radius: 99999px;
+    border: 1px solid #eeeeee;
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    width: 100%;
+    padding: 9px 18px;
+    outline: none;
+    margin: 8px 0;
+}
+
+.contact__form input[type="submit"] {
+    font-family: 'Jost', sans-serif;
+    margin-top: 18px;
+    width: 158px;
+}
+
+.contact__info {
+    background-color: #111111;
+    height: 100%;
+    min-height: 440px;
+    padding: 0 8%;
+    position: relative;
+}
+
+.contact__info .contact--title {
+    color: #fff;
+}
+
+.list__info {
+    list-style: none;
+}
+
+.info__items {
+    display :flex;
+    align-items: center;
+    margin-bottom : 35px;
+}
+
+.info__items--icon {
+    border-radius: 50%;
+    border: 1px solid #ab8e66;
+    width: 45px;
+    height: 45px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-right: 20px
+}
+.info__items--icon i {
+    color: #ab8e66;
+    font-size: 18px
+}
+
+.info__items > p {
+    color: #fff;
+    flex: 1;
+    font-size: 14px;
+    line-height:1.6;
+    color: #dddddd;
+}
+
+.contact__social {
+    position: absolute;
+    bottom: 50px;
+}
+
+.contact__social a {
+    color: #555555;
+    margin-right: 20px;
+    font-size: 22px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.contact__social a:hover {
+    color: #fff;
+}

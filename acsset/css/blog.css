@@ -1,0 +1,144 @@
+
+.main-blog__sidebar {
+    min-height: 100px;
+}
+.main-blog__container {
+    min-height: 500px
+}
+.section__container--title{
+    padding-bottom: 30px;
+}
+.post-format img{
+    margin-bottom: -6px;
+    height: auto;
+}
+.post-format{
+    position: relative;
+    display: flex;
+    border: 1px solid #f4f4f4;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.post-format__left{
+    margin-left:30px;
+    flex: 1;
+
+}
+.post-format a {
+    text-decoration: none;
+}
+.post-format--title a{
+    color: #aaa;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.post-format--title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.post-format--title :hover{
+    color:#ab8e66 ;
+}
+.post-format-h4 a{
+    padding-bottom: 10px;
+    color:#333;
+    font-weight: 600;
+    font-size: 18px;
+}
+.post-format-h4 a:hover{
+    color: #ab8e66;
+}
+.post-format-p p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+}
+.author{
+    padding-top: 20px;
+    display: flex;
+}
+.author .avata_blog_1 img{
+    display: inline-block;
+    width: 31px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+}
+.author h3{
+    display: inline-block;
+    overflow: hidden;
+    padding: 6px 0;
+    font-size: 14px;
+    color: #333;
+    padding-left: 5px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.img__container {
+    position: relative;
+    min-width: 370px;
+    min-height: 300px;
+}
+
+.img__container img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.left,
+.right,
+.bottom,
+.top {
+    position: absolute;
+    transition: .3s;
+    background-color: #fff;
+}
+
+.bottom,
+.top {
+    height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+}
+
+.left,
+.right {
+    width: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 0;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+.top {
+    top: 12px;
+}
+
+.bottom {
+    bottom: 12px;
+}
+
+.img__container:hover .top, 
+.img__container:hover .bottom{
+    width: 93%;
+}
+
+.img__container:hover .right, 
+.img__container:hover .left{
+    height: 92%;
+}
+
+
+

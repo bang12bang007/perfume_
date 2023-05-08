@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": 4238,
+      "user_name": "Ngô Đăng Khoa",
+      "email": "nguyenkhoadang135759@gmail.com",
+      "pass": "123456",
+      "carts": [
+        {
+          "id": 26,
+          "img": "./acsset/img/product-item-21.jpg",
+          "product_name": "The Alchemist",
+          "price": 45,
+          "quantify": 1
+        },
+        {
+          "id": 25,
+          "img": "./acsset/img/product-item-17.jpg",
+          "product_name": "Glorious Eau",
+          "price": 45,
+          "quantify": 1
+        },
+        {
+          "id": 27,
+          "img": "./acsset/img/product-item-22.jpg",
+          "product_name": "The Alchemist",
+          "price": 45,
+          "quantify": 1
+        },
+        {
+          "id": 28,
+          "img": "./acsset/img/product-item-19.jpg",
+          "product_name": "The Alchemist",
+          "price": 45,
+          "quantify": 1
+        }
+      ]
+    },
+    {
+      "id": 8001,
+      "user_name": "Khoa",
+      "email": "ngokhoadang135759@gmail.com",
+      "pass": "123",
+      "carts": [
+        {
+          "id": 26,
+          "img": "./acsset/img/product-item-21.jpg",
+          "product_name": "The Alchemist",
+          "price": 45,
+          "quantify": 4
+        },
+        {
+          "id": 2,
+          "img": "./acsset/img/product-item-2.jpg",
+          "product_name": "Tuscan Creations",
+          "price": 45,
+          "quantify": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "user_name": "khoa dep trai",
+      "email": "nguyenkhoadang135444759@gmail.com",
+      "pass": "123",
+      "carts": []
+    },
+    {
+      "id": 1919,
+      "user_name": "Ngô Đăng Khoa",
+      "email": "nguyenkhoad1232132ang135759@gmail.com",
+      "pass": "123456",
+      "carts": [
+        {
+          "id": 28,
+          "img": "./acsset/img/product-item-19.jpg",
+          "product_name": "The Alchemist",
+          "price": 45,
+          "quantify": 4
+        }
+      ]
+    },
+    {
+      "id": 4584,
+      "user_name": "khoa dep trai",
+      "email": "ngokhoadang122235759@gmail.com",
+      "pass": "Ngodangkhoa@123",
+      "carts": []
+    }
+  ]
+}

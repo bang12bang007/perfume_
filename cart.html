@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./acsset/css/gird.css">
+    <link rel="stylesheet" href="./acsset/css/style.css">
+    <link rel="stylesheet" href="./acsset/font/fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="stylesheet" href="./acsset/css/cart.css">
+    <link rel="stylesheet" href="./acsset/css/resposive.css">
+    <title>Document</title>
+</head>
+<body>
+   <div id="wrapper">
+    <!-- Header -->
+    <header class="header">
+        <div class="header--top hidden-mobile">
+            <div class="gird wide">
+                <div class="header-container__title">
+                    <p>Welcome to our online store!</p>
+                    <div class="header-container__title--right">
+                        <div class="language">
+                            <span>English (USD)</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <ul>
+                                <li>
+                                    <a href="">French(EUR)</a>
+                                </li>
+                                <li>
+                                    <a href="">Japanese(JPY)</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a class="welcome" href="authentication.html">
+                            Login or Register
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="gird wide">
+            <div class="header-container">
+                <div class="header-nav">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="./acsset/img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="nav__search hidden-mobile-tab-2">
+                        <input type="text" name="" id="" placeholder="Search here">
+                        <label for="cate" class="nav__search--cate">
+                            <span class="js-cate-content">Accessories</span>
+                            <i class="fa-solid fa-caret-down"></i>
+                            <input type="checkbox" name="" id="cate">
+                            <ul>
+                                <li class="js-cate-items">
+                                    <span>Accessories</span>
+                                </li>
+                                <li class="js-cate-items">
+                                    <span>Accents</span>
+                                </li>
+                                <li class="js-cate-items">
+                                    <span>Desks</span>
+                                </li>
+                                <li class="js-cate-items">
+                                    <span>Sofas</span>
+                                </li>
+                                <li class="js-cate-items">
+                                    <span>New Arrivals</span>
+                                </li>
+                                <li class="js-cate-items">
+                                    <span>Bedroom</span>
+                                </li>
+                            </ul>
+                        </label>
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="nav__right">
+                        <div class="nav__right-cart hidden-mobile">
+                            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <span class="js-cart-quantify">0</span>
+                            <div class="minicart having-product d-none">
+                                <h4>Shopping Cart</h4>
+                                <ul class="js-cart-container">
+                                    <li>
+                                        <div class="minicart__product">
+                                            <div class="minicart__product-img">
+                                                <img src="./acsset/img/item-minicart-2.jpg" alt="">
+                                            </div>
+                                            <div class="minicart__product-desc">
+                                                <a class="minicart__product-name">Bibliotheque</a>
+                                                <p>
+                                                    <a href="">Black</a>,
+                                                    <a href="">300ML</a>
+                                                </p>
+                                                <div class="minicart__product-act">
+                                                    <p>
+                                                        <span>$45</span>
+                                                        <span>(x1)</span>
+                                                    </p>
+                                                    <a href="">
+                                                        <i class="fa-regular fa-trash-can"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="minicart__bottom">
+                                    <p>
+                                        <span>Subtotal:</span>
+                                        <span class="cart-total-js">$135</span>
+                                    </p>
+                                    <div class="group--btn">
+                                        <a class="btn--primary btn--bg-white flex-1 mg-r-10" href="cart.html">view bag</a>
+                                        <a class="btn--primary" href="checkout.html">checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="minicart no-product">
+                                <p>You have <span>0 ITEM(S)</span> in your bag</p>
+                            </div>
+                        </div>
+                        <div class="nav__right-account hidden-mobile">
+                            <i class="fa-regular fa-user"></i>
+                            <div class="mini-login">
+                                <a class="js-user-name" href="Authentication.html">Login</a>
+                                <a class="js-logout" href="Authentication.html">Register</a>
+                            </div>
+                        </div>
+                        <div class="nav__right-search pc-none show-mobile mg-r-20 js-modal-mobile">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="nav__right-setting pc-none show-mobile js-modal-mobile">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <div class="nav__right-menu">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav__search pc-none show-nav__search">
+                    <input type="text" name="" id="" placeholder="Search here">
+                    <label for="cate-mobi" class="nav__search--cate">
+                        <span class="js-cate-content">Accessories</span>
+                        <i class="fa-solid fa-caret-down"></i>
+                        <input type="checkbox" name="" id="cate-mobi">
+                        <ul>
+                            <li class="js-cate-items">
+                                <span>Accessories</span>
+                            </li>
+                            <li class="js-cate-items">
+                                <span>Accents</span>
+                            </li>
+                            <li class="js-cate-items">
+                                <span>Desks</span>
+                            </li>
+                            <li class="js-cate-items">
+                                <span>Sofas</span>
+                            </li>
+                            <li class="js-cate-items">
+                                <span>New Arrivals</span>
+                            </li>
+                            <li class="js-cate-items">
+                                <span>Bedroom</span>
+                            </li>
+                        </ul>
+                    </label>
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu hidden-mobile-tab">
+            <div class="header__menu-container">
+                <ul>
+                    <div class="menu-container__category">
+                        <i class="fa-solid fa-bars"></i>
+                        <span>all category</span>
+                        <ul>
+                            <li>
+                                <a href="">New Arrivals</a>
+                            </li>
+                            <li>
+                                <a href="">Hot sale</a>
+                            </li>
+                            <li>
+                                <a href="">Accessories</a>
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <ul class="menu-sub">
+                                    <li>
+                                        <a href="">Living</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Accents</a>
+                                    </li>
+                                    <li>
+                                        <a href="">New Arrivals</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Accessories</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Bedroom</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">Accents</a>
+                            </li>
+                            <li>
+                                <a href="">Tables</a>
+                            </li>
+                            <li>
+                                <a href="">Dining</a>
+                            </li>
+                            <li>
+                                <a href="">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="">Office</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="shop.html">shop</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="blogs.html">blogs</a>
+                    </li>
+                    <li>
+                        <a href="about.html">about</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="search-mobile js-modal-modal-items pc-none show-mobile">
+            <input type="text" name="" id="" placeholder="Enter keyword to search...">
+            <p class="btn--primary ">search</p>
+            <i  class="fa-solid fa-xmark js-close-modal"></i>
+        </div>
+        <div class="search-mobile setting-mobile js-modal-modal-items pc-none show-mobile">  
+            <h4>Currency</h4>
+            <ul>
+                <li>English (USD)</li>
+                <li>French (EUR)</li>
+                <li>Japanese (JPY)</li>
+            </ul>
+            <i  class="fa-solid fa-xmark js-close-modal"></i>
+        </div>
+    </header>
+    <!-- Main -->
+    <div class="main">
+        <div class="gird wide">
+            <section class="cart">
+                <div class="main__title">
+                    <a class="main__title--link" href="index.html">Home</a> 
+                    <span><i class="fa-solid fa-chevron-right"></i></span>
+                    <span class="mg-r-14 tranform-translateX-3"><i class="fa-solid fa-chevron-right"></i></span>
+                    <p class="main__title--current">Shopping Cart</p>
+                </div>
+                <h3 class="custom--title">shopping cart</h3>
+                <div class="having-products">
+                    <div class="cart__product">
+                        <ul class="cart__product-list">
+                        </ul>    
+                    </div>
+                    <div class="cart__checkout--container">
+                        <div class="cart__checkout">
+                            <div class="coupon-code">
+                                <span>Coupon Code: </span>
+                                <div class="coupon-code__input">
+                                    <input type="text" name="" id="" placeholder="Promotion code here">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </div>
+                            <div class="total-price">
+                                <span>Total Price: </span>
+                                <span class="js-total">$95</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group--btn flex-end">
+                        <a class="btn--primary btn--bg-white mg-r-10" href="shop.html">Continue shopping</a>
+                        <a class="btn--primary btn--bg-white" href="checkout.html">checkout</a>
+                    </div>
+                </div>
+                <div class="no-products d-none">
+                    <img src="./acsset/img/no-cart.png" alt="">
+                    <a class="btn--primary" href="shop.html">Continue shopping</a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="gird">
+                <div class="row">
+                    <div class="col c-12 m-0 l-0">
+                        <div class="footer-container__item">
+                            <h4>NEWSELLETER</h4>
+                            <p>Sign up for our free video course and urban garden inspiration</p>
+                            <input class="input-sub" type="email" name="" id="" placeholder="Your email letter">
+                            <button class="btn-sub" >SUBCRIBE</button>
+                        </div>
+                    </div>
+                    <div class="col c-12 m-4 l-3">
+                        <div class="footer-container__item">
+                            <h4>QUICK MENU</h4>
+                            <ul>
+                                <li><a href="">New arrivals</a></li>
+                                <li><a href="">Life style</a></li>
+                                <li><a href="">Accents</a></li>
+                                <li><a href="">Tables</a></li>
+                                <li><a href="">Dining</a></li>
+                            </ul>
+                        </div>     
+                    </div>
+                    <div class="col c-0 m-4 l-6">
+                        <div class="footer-container__item">
+                            <h4>NEWSELLETER</h4>
+                            <p>Sign up for our free video course and urban garden inspiration</p>
+                            <input class="input-sub" type="email" name="" id="" placeholder="Your email letter">
+                            <button class="btn-sub" >SUBCRIBE</button>
+                        </div>
+                    </div>
+                    <div class="col c-12 m-4 l-3">
+                        <div class="footer-container__item">
+                            <h4>INFORMATION</h4>
+                            <ul>
+                                <li><a href="">FAQs</a></li>
+                                <li><a href="">Track Order</a></li>
+                                <li><a href="">Delivery</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Return</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright footer-container__item hidden-mobile">
+                    <div class="sosial">
+                        <a href="">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <span>Copyright © 2020 <a id="Stelina" href="">Stelina</a> . All rights reserved</span>
+                </div>
+                <div class="copyright footer-container__item pc-none show-mobile">
+                    <div class="sosial">
+                        <a href="">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <span>Copyright © 2020 <a id="Stelina" href="">Stelina</a> . All rights reserved</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+   </div>
+   <div class="menu-mobile pc-none show-mobile">
+    <div class="menu-mobile__container">
+        <ul class="menu-mobile__container--list">
+            <li class="menu-mobile__container--items">
+                <a class="link" href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="menu-mobile__container--items">
+                <a class="link" href="">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>Wishlist</span>
+                </a>
+            </li>
+            <li class="menu-mobile__container--items">
+                <a class="link" href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>    
+                    <span>Cart</span>
+                    <span class="quantify js-cart-quantify">0</span>
+                </a>
+            </li>
+            <li class="menu-mobile__container--items">
+                <a class="link" href="">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Account</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <div class="modal__menu pc-none show-mobile-tab">
+        <div class="modal__menu--container">
+            <div class="modal__menu--content">
+                <div class="content__title">
+                    <i class="fa-solid fa-chevron-left back"></i>
+                    <p class="modal-title">main menu</p>
+                    <span>
+                        <i class="fa-solid fa-xmark js-close-menu-modal"></i>
+                    </span>
+                </div>
+                <ul class="content__list">
+                    <li>
+                        <a href="">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="">Hot sale</a>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="">Accessories</a>
+                            <i class="fa-solid fa-chevron-right f-right js-more-cate"></i>
+                        </p>
+                        <ul class="menu-sub js-menu-sub">
+                            <li>
+                                <a href="">Living</a>
+                            </li>
+                            <li>
+                                <a href="">Accents</a>
+                            </li>
+                            <li>
+                                <a href="">New Arrivals</a>
+                            </li>
+                            <li>
+                                <a href="">Accessories</a>
+                            </li>
+                            <li>
+                                <a href="">Bedroom</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Accents</a>
+                    </li>
+                    <li>
+                        <a href="">Tables</a>
+                    </li>
+                    <li>
+                        <a href="">Dining</a>
+                    </li>
+                    <li>
+                        <a href="">Lighting</a>
+                    </li>
+                    <li>
+                        <a href="">Office</a>
+                    </li>
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="shop.html">shop</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="blogs.html">blogs</a>
+                    </li>
+                    <li>
+                        <a href="about.html">about</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="back-to-top">
+        <button class="btn-btt js-btn-btt hidden-mobile pc-none">
+            <i class="fa-solid fa-chevron-up"></i>
+            <i class="fa-solid fa-chevron-up"></i>
+        </button>
+    </div>
+</body>
+<script src="./acsset/js/users.js"></script>
+<script src="./acsset/js/addCart.js"></script>  
+<script src="./acsset/js/responsive.js"></script>
+<script src="./acsset/js/cart.js"></script>
+</html>
